@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    box-shadow: 2px 3px 5px 2px rgb(12, 12, 12);
+    margin-top: 350px;
+}
+
+form h4 {
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: -6px;
+}
+
+fieldset {
+    border: none;
+}
+
+.top-form img {
+    float: right;
+    margin-top: -14px;
+    margin-right: -2px;
+}
+
+.top-form {
+    background-image: url(../img/head.png);
+    background-size: cover;
+    padding: 34px;
+    border-bottom: 1px solid #353435;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    background-color: #f2f2f2;
+    border: none;
+}
+
+#name {
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    padding: 10px 10px 10px 5px;
+    margin-top: 23px;
+    margin-bottom: 20px;
+    background: url(../img/User.png) no-repeat center right;
+    background-size: auto 30%;
+    background-position: right 5% bottom 50%;
+    background-color: #f0eef0;
+    width: 345px;
+    color: #999999;
+    font-size: 12px;
+    height: 30px;
+    text-indent: 23px;
+}
+
+#userpassword {
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    padding: 10px 10px 10px 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: url(../img/Locked2.png) no-repeat;
+    background-position: right 5% bottom 50%;
+    background-size: auto 30%;
+    background-color: #f0eef0;
+    width: 345px;
+    color: #999999;
+    font-size: 12px;
+    height: 30px;
+    text-indent: 23px;
+}
+
+.li {
+    margin-bottom: 20px;
+}
+
+li {
+    padding-right: 50px;
+}
+
+ul li:nth-child(2) {
+    margin-right: 20px;
+    font-size: 14px;
+    color: #999999;
+}
+
+ul li {
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    font-family: sans-serif;
+    transition: .2s;
+}
+
+.button {
+    height: 40px;
+    width: 100px;
+    background: url(../img/RoundeRectangle2.png);
+    text-align: center;
+    line-height: 40px;
+    transition: .5s;
+}
+
+.button:hover {
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .2);
+    cursor: pointer;
+}
+
+ul li:nth-child(2):hover {
+    color: rgb(51, 49, 49);
+    text-decoration: underline;
+    cursor: pointer;
+}
